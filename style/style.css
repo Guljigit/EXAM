@@ -1,0 +1,145 @@
+@import url("./font.css");
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+button {
+    border: none;
+    background: none;
+}
+
+.hero {
+    height: 100vh;
+    background: #FFFFFF;
+}
+.hero_container {
+    max-width: 1160px;
+    padding: 88px 10px 0;
+    margin: 0 auto;
+}
+.hero_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 95px 0 40px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+}
+.hero_desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.hero_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.hero_grid_card {
+    position: relative;
+}
+.hero_grid_card_per {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 39px;
+    top: 34px;
+    left: 37px;
+    background: #E62D2D;
+    border-radius: 10px;
+}
+.hero_grid_card_per_desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.hero_grid_card svg {
+    position: absolute;
+    right: 32px;
+    top: 34px;
+}
+.hero_grid_subcard {
+    background: #F3F3F3;
+    margin-top: -6px;
+}
+.hero_grid_subcard_title {
+    padding: 35px 0 0 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.hero_grid_subcard_desc {
+    display: flex;
+    padding: 22px 0;
+}
+.hero_grid_subcard_line {
+    margin: 0 18px 0 29px;
+    width: 4px;
+    height: 26px;
+    background: #6EBBD3;
+}
+.hero_grid_subcard_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.hero_grid_subcard_text1 {
+    width: 89px;
+}
+.hero_grid_subcard_text2 {
+    padding: 0 48px 0 20px;
+}
+.hero_grid_subcard_bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.hero_grid_subcard_price {
+    padding: 0 0 29px 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.hero_grid_card_btn {
+    width: 380px;
+    height: 65px;
+    background: #6EBBD3;
+    border-radius: 0 0 10px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero_grid_card_soldbtn {
+    width: 380px;
+    height: 65px;
+    background: #1F2021;
+    border-radius: 0 0 10px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
